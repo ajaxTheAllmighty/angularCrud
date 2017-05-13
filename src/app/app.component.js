@@ -7,25 +7,27 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
+var entity = (function () {
+    function entity() {
+    }
+    return entity;
+}());
+exports.entity = entity;
+var USERS = [
+    { id: 0, name: 'Jon Smith', dob: '01.10.1990' },
+    { id: 1, name: 'Кайрат Нуртас', dob: '22.04.1988' }
+];
 var AppComponent = (function () {
     function AppComponent() {
         this.name = 'Angular';
+        this.Users = USERS;
     }
-    AppComponent.prototype.KeyDown = function () {
-        console.log('down');
-    };
-    AppComponent.prototype.KeyUp = function () {
-        console.log('up');
-    };
-    AppComponent.prototype.buttonClick = function () {
-        alert('тык');
-    };
     return AppComponent;
 }());
 AppComponent = __decorate([
     core_1.Component({
         selector: 'my-app',
-        template: "\n        <h1>Hello {{name}}</h1>\n        <input (keydown)=\"KeyDown()\" (keyup)=\"KeyUp()\" [(ngModel)]=\"name\" placeholder=\"title goes here\">\n        <button (click)=\"buttonClick()\" class=\"btn btn-info\">test</button>\n            "
+        template: "\n        <h1>\u0421\u043F\u0438\u0441\u043E\u043A</h1>\n        <table class=\"table table-hover table-bordered\">\n            <thead>\n                <tr>\n                    <th> id </th>\n                    <th> \u0418\u043C\u044F </th>\n                    <th> \u0414\u0430\u0442\u0430 </th>\n                    <th> \u0423\u0434\u0430\u043B\u0438\u0442\u044C </th>\n                    <th> \u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C </th>\n                </tr>\n            </thead>\n            <tbody>\n                <tr>\n                    <th> {{Users[0].id}} </th>\n                    <th> {{Users[0].name}} </th>\n                    <th> {{Users[0].dob}} </th>\n                    <th> <button class=\"crud__DeleteEditButton form-control\"> \u0423\u0434\u0430\u043B\u0438\u0442\u044C</button> </th>\n                    <th> <button class=\"crud__DeleteEditButton form-control\"> \u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C</button> </th>\n                </tr>\n                <tr>\n                    <th> {{Users[1].id}} </th>\n                    <th> {{Users[1].name}} </th>\n                    <th> {{Users[1].dob}} </th>\n                    <th> <button class=\"crud__DeleteEditButton form-control\"> \u0423\u0434\u0430\u043B\u0438\u0442\u044C</button> </th>\n                    <th> <button class=\"crud__DeleteEditButton form-control\"> \u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C</button> </th>\n                </tr>\n            </tbody>\n        </table>\n            "
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;

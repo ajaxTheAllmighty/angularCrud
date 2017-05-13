@@ -1,0 +1,7 @@
+.crud__DeleteEditButton
+{
+    width: 120px;
+    height: 120px;
+    position: inherit;
+    left:50%;
+}
