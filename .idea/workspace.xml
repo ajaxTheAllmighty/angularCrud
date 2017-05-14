@@ -2,6 +2,143 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="510493e1-cbc2-41ee-a0b0-46814832ae62" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-commonjs-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-glyphicons-data-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-lessdoc-parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/bs-raw-files-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/change-version.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/configBridge.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/npm-shrinkwrap.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/sauce_browsers.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/affix.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/alert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dropdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/modal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/popover.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/scrollspy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/background-variant.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/border-radius.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/center-block.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/clearfix.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/gradients.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/grid-framework.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/hide-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/image.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/nav-divider.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/nav-vertical-align.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/opacity.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/progress-bar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/reset-filter.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/reset-text.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/resize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/responsive-visibility.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/size.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/tab-focus.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/table-row.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/text-emphasis.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/text-overflow.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/vendor-prefixes.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/responsive-embed.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/template.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/bootstrap-3.3.7-dist/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jquery-3.2.1.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -284,7 +421,7 @@
       <workItem from="1494572690074" duration="4746000" />
       <workItem from="1494603316454" duration="458000" />
       <workItem from="1494660326830" duration="3835000" />
-      <workItem from="1494756891031" duration="2600000" />
+      <workItem from="1494756891031" duration="2643000" />
     </task>
     <task id="LOCAL-00001" summary="some design done">
       <created>1494663154136</created>
@@ -307,11 +444,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494759624496</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="***">
+      <created>1494759657478</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1494759657478</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11639000" />
+    <option name="totallyTimeSpent" value="11682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
