@@ -15,6 +15,23 @@ var USERS: entity[] = [
   selector: 'my-app',
   template: `
         <h1>Список</h1>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         <table class="table table-hover table-bordered">
             <thead>
                 <tr>
@@ -30,8 +47,8 @@ var USERS: entity[] = [
                     <th> {{Users[0].id}} </th>
                     <th> {{Users[0].name}} </th>
                     <th> {{Users[0].dob}} </th>
-                    <th> <button class="crud__DeleteEditButton form-control"> Удалить</button> </th>
-                    <th> <button class="crud__DeleteEditButton form-control"> Изменить</button> </th>
+                    <th> <button class="crud__DeleteEditButton form-control" data-toggle = "modal" data-target = "#myModal"> Удалить </button> </th>
+                    <th> <button class="crud__DeleteEditButton form-control"> Изменить </button> </th>
                 </tr>
                 <tr>
                     <th> {{Users[1].id}} </th>
