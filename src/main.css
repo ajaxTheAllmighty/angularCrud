@@ -5,3 +5,7 @@
     position: inherit;
     left:50%;
 }
+.crud__editInput
+{
+    margin: 3px;
+}
