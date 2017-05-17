@@ -1,50 +1,77 @@
-<h1>Список</h1>
-<!-- ОКНО ЗДЕСЬ -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<h1 style="margin-left: 10px;">Список</h1>
+<!-- popup редактирования -->
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editLabelLabel">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Изменение</h4>
+                <h4 class="modal-title" id="editLabel">Изменение</h4>
             </div>
             <div class="modal-body">
                 <!-- ИНПУТЫ ТУТ -->
-                <input id="nameInput" class="crud__editInput form-control" placeholder="Имя" required>
-                <input id="lNameInput" class="crud__editInput form-control" placeholder="Фамилия" required>
-                <div id="errorMessage" class="alert alert-danger" role="alert" style="visibility: hidden"> Одно или несколько полей не заполнены! </div>
+                <input id="editNameInput" class="crud__editInput form-control" placeholder="Имя" required>
+                <input id="editLNameInput" class="crud__editInput form-control" placeholder="Фамилия" required>
+                <div id="editErrorMessage" class="alert alert-danger" role="alert" style="visibility: hidden"> Одно или несколько полей не заполнены! </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary" (click)="saveChanges()" >Save changes</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success" (click)="saveChanges()" >Save changes</button>
             </div>
         </div>
     </div>
 </div>
 <!-- ================================================================================= -->
-<table class="table table-hover table-bordered">
-    <thead>
-    <tr>
-        <th> id </th>
-        <th> Имя </th>
-        <th> Фамилия </th>
-        <th> Изменить </th>
-        <th> Удалить </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr id = {{Users[0].id}} >
-        <th> {{Users[0].id}} </th>
-        <th> {{Users[0].name}} </th>
-        <th> {{Users[0].lName}} </th>
-        <th> <button class="crud__DeleteEditButton form-control" data-toggle = "modal" data-target = "#myModal" (click)="getTarget()"> Изменить </button> </th>
-        <th> <button class="crud__DeleteEditButton form-control"> Удалить </button> </th>
-    </tr>
-    <tr id = {{Users[1].id}} >
-        <th> {{Users[1].id}} </th>
-        <th> {{Users[1].name}} </th>
-        <th> {{Users[1].lName}} </th>
-        <th> <button class="crud__DeleteEditButton form-control"> Изменить </button> </th>
-        <th> <button class="crud__DeleteEditButton form-control"> Удалить </button> </th>
-    </tr>
-    </tbody>
-</table>
+<!-- pop up добавления -->
+<div class="modal fade" id="addModal" tabindex="-1" role="dialog" aria-labelledby="addLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="addLabel">Новый пользователь</h4>
+            </div>
+            <div class="modal-body">
+                <!-- ИНПУТЫ ТУТ -->
+                <input id="addNameInput" class="crud__editInput form-control" placeholder="Имя" required>
+                <input id="addLNameInput" class="crud__editInput form-control" placeholder="Фамилия" required>
+                <div id="addErrorMessage" class="alert alert-danger" role="alert" style="visibility: hidden"> Одно или несколько полей не заполнены! </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success" (click)="addUser()" >Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ================================================================================= -->
+<div class="crud_tableBlock">
+    <table class="table table-hover table-bordered">
+        <thead>
+        <tr>
+            <th> id </th>
+            <th> Имя </th>
+            <th> Фамилия </th>
+            <th> Изменить </th>
+            <th> Удалить </th>
+        </tr>
+        </thead>
+       <tbody>
+       <!-- <tr id = {{Users[0].id}} >
+           <th> {{Users[0].id}} </th>
+           <th> {{Users[0].name}} </th>
+           <th> {{Users[0].lName}} </th>
+           <th> <button class="crud__DeleteEditButton form-control" data-toggle = "modal" data-target = "#editModal" (click)="getTarget()"> Изменить </button> </th>
+           <th> <button class="crud__DeleteEditButton form-control" (click)="deleteUser()"> Удалить </button> </th>
+       </tr>
+       <tr id = {{Users[1].id}} >
+           <th> {{Users[1].id}} </th>
+           <th> {{Users[1].name}} </th>
+           <th> {{Users[1].lName}} </th>
+           <th> <button class="crud__DeleteEditButton form-control"> Изменить </button> </th>
+           <th> <button class="crud__DeleteEditButton form-control"> Удалить </button> </th>
+       </tr>-->
+       </tbody>
+    </table>
+</div>
+<div class="crud__addBlock">
+    <button class="crud__addButton btn btn-info" data-toggle="modal" data-target="#addModal">Добавить пользователя</button>
+</div>
