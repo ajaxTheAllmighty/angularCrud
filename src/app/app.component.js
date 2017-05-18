@@ -23,10 +23,22 @@ var AppComponent = (function () {
         this.name = 'Angular';
         this.Users = USERS;
     }
+    AppComponent.prototype.deleteUser = function () {
+        console.log(ID);
+        this.Users.splice(ID, 1);
+        this.drawTable();
+    };
     AppComponent.prototype.getTarget = function () {
         var Target = event.target;
-        var id = $(Target).attr('id');
+        var id = $(Target).parent().parent().attr('id');
+        console.log('номер', id);
+        console.log(this.Users);
         ID = parseInt(id);
+        //console.log($(<HTMLButtonElement>Target).text());
+        if ($(Target).text() == 'Удалить') {
+            console.log(this.Users);
+            this.deleteUser();
+        }
     };
     AppComponent.prototype.saveChanges = function (id) {
         id = ID;
@@ -44,10 +56,6 @@ var AppComponent = (function () {
             $('#editErrorMessage').removeAttr('style'); //сообщение снова видно
         }
     };
-    AppComponent.prototype.deleteUser = function () {
-        this.Users.splice(ID, 1);
-        this.drawTable();
-    };
     AppComponent.prototype.addUser = function () {
         $(event.target).attr('data-dismiss', 'modal'); //Закрыть модальное окно
         $('#addErrorMessage').attr('style', 'visibility:hidden'); //сделать сообщение об ошибке невидимым
@@ -64,7 +72,7 @@ var AppComponent = (function () {
         }
     };
     AppComponent.prototype.drawTable = function () {
-        console.log('drawing...');
+        console.log('drawing', this.Users);
         var Table = $('table');
         var tBody = $('tbody');
         console.log(this.Users.length);
@@ -123,7 +131,7 @@ var AppComponent = (function () {
             cells.push(cell4);
             console.log(cells);
             deleteButton.className = 'crud__DeleteEditButton form-control'; //настройка кнопки удаления
-            deleteButton.addEventListener('click', this.deleteUser, false);
+            //deleteButton.addEventListener('click',this.deleteUser,false)
             deleteButton.innerHTML = 'Удалить';
             var cell5 = document.createElement('th');
             cell5.appendChild(deleteButton);
@@ -134,7 +142,7 @@ var AppComponent = (function () {
                 console.log('appending');
                 row.appendChild(tempCell);
             }
-            row.addEventListener('click', this.getTarget, false);
+            row.addEventListener('click', this.getTarget.bind(this), false);
             tBody.append(row); //добавить строку в таблицу
         }
         Table.append(tBody); // добавить тело к таблице
@@ -152,5 +160,5 @@ AppComponent = __decorate([
     })
 ], AppComponent);
 exports.AppComponent = AppComponent;
-//TODO сделать удаление и динамическую отрисовку таблицы 
+//TODO сделать удаление и динамическую отрисовку таблицы -DONE
 //# sourceMappingURL=app.component.js.map
