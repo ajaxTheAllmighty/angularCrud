@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="510493e1-cbc2-41ee-a0b0-46814832ae62" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.js" afterPath="$PROJECT_DIR$/src/app/app.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.js.map" afterPath="$PROJECT_DIR$/src/app/app.component.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.ts" afterPath="$PROJECT_DIR$/src/app/app.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/template.html" afterPath="$PROJECT_DIR$/src/app/template.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,13 +27,14 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="90" column="38" lean-forward="true" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+            <state relative-caret-position="0">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="n#!!block;n#deleteUser#0;n#AppComponent#0" expanded="false" />
                 <element signature="n#!!block;n#getTarget#0;n#AppComponent#0" expanded="false" />
                 <element signature="n#!!block;n#saveChanges#0;n#AppComponent#0" expanded="false" />
                 <element signature="n#!!block;n#addUser#0;n#AppComponent#0" expanded="false" />
+                <element signature="n#!!block;n#drawTable#0;n#AppComponent#0" expanded="false" />
                 <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
               </folding>
             </state>
@@ -103,6 +101,11 @@
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>console.log</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -311,7 +314,7 @@
       <workItem from="1494660326830" duration="3835000" />
       <workItem from="1494756891031" duration="2643000" />
       <workItem from="1494819790960" duration="25073000" />
-      <workItem from="1494996518814" duration="27372000" />
+      <workItem from="1494996518814" duration="27616000" />
     </task>
     <task id="LOCAL-00001" summary="some design done">
       <created>1494663154136</created>
@@ -376,11 +379,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495097543806</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed 'object Object'&#10;minor design">
+      <created>1495097754690</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1495097754690</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64127000" />
+    <option name="totallyTimeSpent" value="64371000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,7 +474,8 @@
     <MESSAGE value="user editing done" />
     <MESSAGE value="some shit done" />
     <MESSAGE value="guess everything is ok now" />
-    <option name="LAST_COMMIT_MESSAGE" value="guess everything is ok now" />
+    <MESSAGE value="fixed 'object Object'&#10;minor design" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed 'object Object'&#10;minor design" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -482,6 +493,7 @@
             <element signature="n#!!block;n#getTarget#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#saveChanges#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#addUser#0;n#AppComponent#0" expanded="false" />
+            <element signature="n#!!block;n#drawTable#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
           </folding>
         </state>
@@ -538,6 +550,7 @@
             <element signature="n#!!block;n#getTarget#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#saveChanges#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#addUser#0;n#AppComponent#0" expanded="false" />
+            <element signature="n#!!block;n#drawTable#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
           </folding>
         </state>
@@ -578,6 +591,7 @@
             <element signature="n#!!block;n#getTarget#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#saveChanges#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#addUser#0;n#AppComponent#0" expanded="false" />
+            <element signature="n#!!block;n#drawTable#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
           </folding>
         </state>
@@ -610,6 +624,7 @@
             <element signature="n#!!block;n#getTarget#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#saveChanges#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#addUser#0;n#AppComponent#0" expanded="false" />
+            <element signature="n#!!block;n#drawTable#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
           </folding>
         </state>
@@ -687,13 +702,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="90" column="38" lean-forward="true" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#deleteUser#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#getTarget#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#saveChanges#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#addUser#0;n#AppComponent#0" expanded="false" />
+            <element signature="n#!!block;n#drawTable#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
           </folding>
         </state>
