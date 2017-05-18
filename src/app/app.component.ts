@@ -87,7 +87,7 @@ export class AppComponent implements OnInit{
                 let deleteButton = document.createElement('button');
                     row.setAttribute('id',item.id.toString()) // установить id строки
                 let cell1 = document.createElement('th');
-                    cell1.innerHTML = item.toString(); // текст внутри ячейки
+                    cell1.innerHTML = (item.id + 1).toString(); // текст внутри ячейки
                     cells.push(cell1);
                 console.log(cells);
                 let cell2 = document.createElement('th');

@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="510493e1-cbc2-41ee-a0b0-46814832ae62" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.js" afterPath="$PROJECT_DIR$/src/app/app.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.js.map" afterPath="$PROJECT_DIR$/src/app/app.component.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.ts" afterPath="$PROJECT_DIR$/src/app/app.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/template.html" afterPath="$PROJECT_DIR$/src/app/template.html" />
     </list>
@@ -28,14 +30,13 @@
       <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="191">
+              <caret line="90" column="38" lean-forward="true" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
               <folding>
                 <element signature="n#!!block;n#deleteUser#0;n#AppComponent#0" expanded="false" />
                 <element signature="n#!!block;n#getTarget#0;n#AppComponent#0" expanded="false" />
                 <element signature="n#!!block;n#saveChanges#0;n#AppComponent#0" expanded="false" />
                 <element signature="n#!!block;n#addUser#0;n#AppComponent#0" expanded="false" />
-                <element signature="n#!!block;n#drawTable#0;n#AppComponent#0" expanded="false" />
                 <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
               </folding>
             </state>
@@ -45,8 +46,8 @@
       <file leaf-file-name="template.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/template.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="56" column="14" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+            <state relative-caret-position="187">
+              <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
                 <element signature="n#div#0;n#!!top" expanded="false" />
@@ -113,8 +114,8 @@
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/main.css" />
         <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/template.html" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
       </list>
     </option>
   </component>
@@ -310,7 +311,7 @@
       <workItem from="1494660326830" duration="3835000" />
       <workItem from="1494756891031" duration="2643000" />
       <workItem from="1494819790960" duration="25073000" />
-      <workItem from="1494996518814" duration="27203000" />
+      <workItem from="1494996518814" duration="27372000" />
     </task>
     <task id="LOCAL-00001" summary="some design done">
       <created>1494663154136</created>
@@ -368,11 +369,18 @@
       <option name="project" value="LOCAL" />
       <updated>1495094541674</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="guess everything is ok now">
+      <created>1495097543780</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1495097543806</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63958000" />
+    <option name="totallyTimeSpent" value="64127000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,7 +482,6 @@
             <element signature="n#!!block;n#getTarget#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#saveChanges#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#addUser#0;n#AppComponent#0" expanded="false" />
-            <element signature="n#!!block;n#drawTable#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
           </folding>
         </state>
@@ -531,7 +538,6 @@
             <element signature="n#!!block;n#getTarget#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#saveChanges#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#addUser#0;n#AppComponent#0" expanded="false" />
-            <element signature="n#!!block;n#drawTable#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
           </folding>
         </state>
@@ -572,7 +578,6 @@
             <element signature="n#!!block;n#getTarget#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#saveChanges#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#addUser#0;n#AppComponent#0" expanded="false" />
-            <element signature="n#!!block;n#drawTable#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
           </folding>
         </state>
@@ -605,7 +610,6 @@
             <element signature="n#!!block;n#getTarget#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#saveChanges#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#addUser#0;n#AppComponent#0" expanded="false" />
-            <element signature="n#!!block;n#drawTable#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
           </folding>
         </state>
@@ -639,22 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="56" column="14" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#!!top" expanded="false" />
-            <element signature="e#413#420#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#!!top" expanded="false" />
-            <element signature="e#1740#1747#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -681,16 +669,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/template.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="49" column="22" lean-forward="false" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#!!top" expanded="false" />
+            <element signature="e#413#420#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#!!top" expanded="false" />
+            <element signature="e#1740#1747#1" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="191">
+          <caret line="90" column="38" lean-forward="true" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
           <folding>
             <element signature="n#!!block;n#deleteUser#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#getTarget#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#saveChanges#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#addUser#0;n#AppComponent#0" expanded="false" />
-            <element signature="n#!!block;n#drawTable#0;n#AppComponent#0" expanded="false" />
             <element signature="n#!!block;n#ngOnInit#0;n#AppComponent#0" expanded="false" />
           </folding>
         </state>

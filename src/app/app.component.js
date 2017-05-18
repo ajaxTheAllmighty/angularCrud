@@ -78,30 +78,6 @@ var AppComponent = (function () {
         console.log(this.Users.length);
         tBody.empty();
         //элементы таблицы
-        /*for (let rowIndex = 0; rowIndex == this.Users.length - 1; rowIndex++) {
-            console.log(rowIndex);
-            console.log(this.Users[rowIndex]);
-            row.dataset.id = this.Users[rowIndex].id.toString(); // установить id строки
-                cell.innerHTML = this.Users[rowIndex].id.toString(); // текст внутри ячейки
-            row.appendChild(cell); // добавить ячейку в ряд
-                cell.innerHTML = this.Users[rowIndex].name;
-            row.appendChild(cell);
-                cell.innerHTML = this.Users[rowIndex].lName;
-            row.appendChild(cell);
-                cell.innerHTML = ''; // убрать текст из ячейки
-                    editButton.className = 'crud__DeleteEditButton form-control'; //настройка кнопки изменения
-                    editButton.setAttribute('data-toggle', 'modal');
-                    editButton.setAttribute('data-target', '#editModal');
-                    editButton.setAttribute('onclick','getTarget()');
-                    editButton.innerHTML = 'Изменить';
-                cell.appendChild(editButton); // добавить кнопку в ячейку
-            row.appendChild(cell);
-                    deleteButton.className = 'crud__DeleteEditButton form-control'; //настройка кнопки удаления
-                    deleteButton.setAttribute('onclick','deleteUser()');
-                    deleteButton.innerHTML = 'Удалить';
-                cell.appendChild(deleteButton);
-            tBody.appendChild(row); //добавить строку в таблицу
-        };*/
         for (var _i = 0, _a = this.Users; _i < _a.length; _i++) {
             var item = _a[_i];
             console.log('start');
@@ -111,7 +87,7 @@ var AppComponent = (function () {
             var deleteButton = document.createElement('button');
             row.setAttribute('id', item.id.toString()); // установить id строки
             var cell1 = document.createElement('th');
-            cell1.innerHTML = item.toString(); // текст внутри ячейки
+            cell1.innerHTML = (item.id + 1).toString(); // текст внутри ячейки
             cells.push(cell1);
             console.log(cells);
             var cell2 = document.createElement('th');
