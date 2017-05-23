@@ -77,7 +77,7 @@ export class AppComponent implements OnInit{
                 let cells = [];
                 let editButton = document.createElement('button');
                 let deleteButton = document.createElement('button');
-                    row.setAttribute('id',item.id.toString()) // установить id строки
+                    row.setAttribute('id',item.id.toString()); // установить id строки
                 let cell1 = document.createElement('th');
                     cell1.innerHTML = (item.id + 1).toString(); // текст внутри ячейки
                     cells.push(cell1);
@@ -103,7 +103,7 @@ export class AppComponent implements OnInit{
                     for (let tempCell of cells){
                          row.appendChild(tempCell);
                      }
-                    row.addEventListener('click',this.getTarget.bind(this),false)
+                    row.addEventListener('click',this.getTarget.bind(this),false);
                     tBody.append(row); //добавить строку в таблицу
             }
             Table.append(tBody); // добавить тело к таблице
@@ -113,3 +113,4 @@ export class AppComponent implements OnInit{
     }
 }
 //TODO сделать удаление и динамическую отрисовку таблицы -DONE
+//TODO использовать https://angular.io/docs/ts/latest/guide/displaying-data.html

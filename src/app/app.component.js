@@ -24,19 +24,14 @@ var AppComponent = (function () {
         this.Users = USERS;
     }
     AppComponent.prototype.deleteUser = function () {
-        console.log(ID);
         this.Users.splice(ID, 1);
         this.drawTable();
     };
     AppComponent.prototype.getTarget = function () {
         var Target = event.target;
         var id = $(Target).parent().parent().attr('id');
-        console.log('номер', id);
-        console.log(this.Users);
         ID = parseInt(id);
-        //console.log($(<HTMLButtonElement>Target).text());
         if ($(Target).text() == 'Удалить') {
-            console.log(this.Users);
             this.deleteUser();
         }
     };
@@ -72,15 +67,12 @@ var AppComponent = (function () {
         }
     };
     AppComponent.prototype.drawTable = function () {
-        console.log('drawing', this.Users);
         var Table = $('table');
         var tBody = $('tbody');
-        console.log(this.Users.length);
         tBody.empty();
         //элементы таблицы
         for (var _i = 0, _a = this.Users; _i < _a.length; _i++) {
             var item = _a[_i];
-            console.log('start');
             var row = document.createElement('tr');
             var cells = [];
             var editButton = document.createElement('button');
@@ -89,15 +81,12 @@ var AppComponent = (function () {
             var cell1 = document.createElement('th');
             cell1.innerHTML = (item.id + 1).toString(); // текст внутри ячейки
             cells.push(cell1);
-            console.log(cells);
             var cell2 = document.createElement('th');
             cell2.innerHTML = item.name;
             cells.push(cell2);
-            console.log(cells);
             var cell3 = document.createElement('th');
             cell3.innerHTML = item.lName;
             cells.push(cell3);
-            console.log(cells);
             editButton.className = 'crud__DeleteEditButton form-control'; //настройка кнопки изменения
             editButton.setAttribute('data-toggle', 'modal');
             editButton.setAttribute('data-target', '#editModal');
@@ -105,24 +94,20 @@ var AppComponent = (function () {
             var cell4 = document.createElement('th');
             cell4.appendChild(editButton);
             cells.push(cell4);
-            console.log(cells);
             deleteButton.className = 'crud__DeleteEditButton form-control'; //настройка кнопки удаления
             //deleteButton.addEventListener('click',this.deleteUser,false)
             deleteButton.innerHTML = 'Удалить';
             var cell5 = document.createElement('th');
             cell5.appendChild(deleteButton);
             cells.push(cell5);
-            console.log(cells);
             for (var _b = 0, cells_1 = cells; _b < cells_1.length; _b++) {
                 var tempCell = cells_1[_b];
-                console.log('appending');
                 row.appendChild(tempCell);
             }
             row.addEventListener('click', this.getTarget.bind(this), false);
             tBody.append(row); //добавить строку в таблицу
         }
         Table.append(tBody); // добавить тело к таблице
-        console.log('drawing done');
     };
     AppComponent.prototype.ngOnInit = function () {
         this.drawTable();
@@ -137,4 +122,5 @@ AppComponent = __decorate([
 ], AppComponent);
 exports.AppComponent = AppComponent;
 //TODO сделать удаление и динамическую отрисовку таблицы -DONE
+//TODO использовать https://angular.io/docs/ts/latest/guide/displaying-data.html 
 //# sourceMappingURL=app.component.js.map
